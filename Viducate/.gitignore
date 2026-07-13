@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Virtual environments
+venv/
+
+# Environment variables
+*.env
+.env
+
+# Generated outputs
+chroma_db/
+logs/
+ocr_outputs/
+__pycache__/
+*.pyc
+
+merged_*.txt
+transcript_*.txt
+segmentation_*.json
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / coverage reports
+.coverage
+*.coverage
+**/locust_report.html
